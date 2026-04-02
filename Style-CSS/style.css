@@ -12,17 +12,18 @@
     font-size: 20px;
 }
 
-.peopleAndBooks {
+.people-and-books1 {
     position: absolute;
     top: 50%;
-    right: 5%;
+    right: 2%;
     transform: translateY(-64%);
     width: 45%;
     height: auto;
     z-index: 10;
+    border: 2px solid #333;
 }
 
-.backgroundImages {
+.background-images {
     position: absolute;
     top: 0;
     left: 0;
@@ -44,11 +45,126 @@
     font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
     cursor: pointer;
 }
-    .join {
+
+.join {
     padding-top: 15%;
-    font-family:'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-.bookClub {
+.book-club {
     font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.features-section1 {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    max-width: 1200px;
+    margin-top: 20%;
+    padding: 0 20px;
+}
+
+
+.people-and-books2 {
+    width: 53.5%;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-top: 0;
+}
+
+
+.features-content {
+    flex: 1;
+}
+
+.read-together {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 32px;
+    font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.galka-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.text-with-galka {
+    font-size: 150%;
+    color: #333;
+    line-height: 1.4;
+    font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.feature-section2 {
+    display: flex;
+    align-items: center;  
+    gap: 48px;             
+    max-width: 1200px;
+    margin: 80px auto;  
+    padding: 0 20px;
+}
+
+.feature-section2 .text-content {
+    flex: 1;
+}
+.not-your-average {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+    font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.feature-section2 .text2 {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+    font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+
+.people-and-boo {
+    width: 53.5%;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .features-section {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .people-and-books2 {
+        width: 100%;
+    }
+
+    .read-together {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .feature-item {
+        gap: 10px;
+    }
+
+    .galka-icon {
+        width: 18px;
+        height: 18px;
+    }
 }
