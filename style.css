@@ -486,6 +486,16 @@ h1, h2, h3 {
     color: #1a1a1a;
 }
 
+.testimonial__stars {
+    margin-bottom: 20px;
+}
+
+.testimonial__stars i {
+    color: #ffc107;
+    font-size: 1rem;
+    margin: 0 2px;
+}
+
 /* MEDIA QUERIES - Адаптивность */
 @media (max-width: 1024px) {
     .hero__grid,
