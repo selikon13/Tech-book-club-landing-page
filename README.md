@@ -24,10 +24,10 @@ A modern landing page for an IT professionals' book club.
 
 ## Screenshots
 ### Desctop
-![descktop](screenshots/MacBook Pro-1775324691031.jpeg)
+![descktop](screenshots/MacBook-Pro-1775324691031.jpeg)
 
 ### Mobile
-![mobile](screenshots/iPhone 12 Pro-1775324758924.jpeg)
+![mobile](screenshots/iPhone-12-Pro-1775324758924.jpeg)
 
 ## Technologes
 - Structure: HTML5 
