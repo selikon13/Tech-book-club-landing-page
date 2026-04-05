@@ -1,7 +1,7 @@
 # Tech book club landing page
 Project link: https://tech-book-club-landing-page-phi.vercel.app/
 
-## Desctiption
+## Description
 A modern landing page for an IT professionals' book club.
 
 ## Features
@@ -23,13 +23,13 @@ A modern landing page for an IT professionals' book club.
 - Open in your browser: http://localhost:8000
 
 ## Screenshots
-### Desctop
+### Desktop
 ![descktop](screenshots/MacBook-Pro-1775324691031.jpeg)
 
 ### Mobile
 ![mobile](screenshots/iPhone-12-Pro-1775324758924.jpeg)
 
-## Technologes
+## Technologies
 - Structure: HTML5 
 - Style: CSS3 with custom properties (CSS variables)
 - Flexbox / Grid
