@@ -34,7 +34,3 @@ A modern landing page for an IT professionals' book club.
 - Style: CSS3 with custom properties (CSS variables)
 - Flexbox / Grid
 - Fonts: Awesome 6, Google Fonts (Inter)
-
-## Contacts
-- Email: fnaffi095@gmail.com
-- GitHub: selikon13 (https://github.com/selikon13)
